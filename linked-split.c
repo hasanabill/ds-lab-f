@@ -59,12 +59,9 @@ int main()
     struct Node *firstHalf = NULL;
     struct Node *secondHalf = NULL;
 
-    insert(&head, 6);
-    insert(&head, 5);
-    insert(&head, 4);
-    insert(&head, 3);
-    insert(&head, 2);
-    insert(&head, 1);
+    insert(&head, 30);
+    insert(&head, 20);
+    insert(&head, 10);
 
     printf("Original Linked List:\n");
     printLinkedList(head);
